@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Tienda de Zapatillas</title>
+    <style>
+        body {
+            background-color: #8A2BE2; /* Violeta */
+            margin: 0;
+            padding: 0;
+        }
+
+
+        header {
+            display: flex;
+            justify-content: space-between; /* Distribuye los elementos horizontalmente */
+            align-items: center; /* Centra verticalmente */
+            text-align: center;
+            padding: 20px;
+        }
+
+
+        #back-button {
+            background-color: black;
+            color: white;
+        }
+
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+
+        #product-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+
+        .product-card {
+            text-align: center;
+        }
+
+
+        .product-card img {
+            width: 100%; /* Ancho del 100% para que se ajuste al tamaño del contenedor */
+            height: auto; /* Altura automática para mantener la proporción */
+            max-width: 200px; /* Ancho máximo */
+            max-height: 150px; /* Altura máxima */
+        }
+
+
+        .product-info {
+            margin-top: 10px;
+        }
+
+
+        h1 {
+            text-align: center; /* Centrar el texto */
+            margin-top: 50px; /* Espacio desde arriba */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button id="back-button">
+            <img src="ruta_de_la_imagen.png" alt="Volver">
+        </button>
+        <nav>
+            <ul>
+                <li><a href="#">Adidas</a></li>
+                <li><a href="#">Nike</a></li>
+                <li><a href="#">Reebok</a></li>
+                <li><a href="#">Puma</a></li>
+                <li><a href="#">Asics</a></li>
+            </ul>
+        </nav>
+        <div id="search-box">
+            <input type="text" placeholder="Buscar...">
+            <button id="search-button">Buscar</button>
+        </div>
+    </header>
+
+
+    <main>
+        <h1>PRODUCTOS</h1>
+        <div id="product-grid">
+            <!-- Zapatilla 1 -->
+            <div class="product-card">
+                <img src="d:\escritorio\jordan 1.jpg" alt="Zapatilla 1">
+                <div class="product-info">
+                    <h3>Jordan Air 1</h3>
+                    <p>Precio: 20.000$</p>
+                    <div class="product-colors">
+                        <!-- Colores de la zapatilla -->
+                    </div>
+                </div>
+            </div>
+           
+            <!-- Zapatilla 2 -->
+            <div class="product-card">
+                <img src="d:\descargas\jordan 2.png" alt="Zapatilla 2">
+                <div class="product-info">
+                    <h3>Jordan Air 2</h3>
+                    <p>Precio: 32.000$</p>
+                    <div class="product-colors">
+                        <!-- Colores de la zapatilla -->
+                    </div>
+                </div>
+            </div>
+           
+            <!-- Zapatilla 3 -->
+            <div class="product-card">
+                <img src="d:\descargas\jordan 3.png" alt="Zapatilla 3">
+                <div class="product-info">
+                    <h3>Jordan Air 3</h3>
+                    <p>Precio: 17.000$</p>
+                    <div class="product-colors">
+                        <!-- Colores de la zapatilla -->
+                    </div>
+                </div>
+            </div>
+           
+            <!-- Zapatilla 4 -->
+            <div class="product-card">
+                <img src="d:\descargas\jordan 7.png" alt="Zapatilla 4">
+                <div class="product-info">
+                    <h3>Jordan Air 4</h3>
+                    <p>Precio: 24.000$</p>
+                    <div class="product-colors">
+                        <!-- Colores de la zapatilla -->
+                    </div>
+                </div>
+            </div>
+           
+            <!-- Zapatilla 5 -->
+            <div class="product-card">
+                <img src="d:\descargas\jordan 5.png" alt="Zapatilla 5">
+                <div class="product-info">
+                    <h3>Jordan Air 5</h3>
+                    <p>Precio: 27.500$</p>
+                    <div class="product-colors">
+                        <!-- Colores de la zapatilla -->
+                    </div>
+                </div>
+            </div>
+           
+            <!-- Zapatilla 6 -->
+            <div class="product-card">
+                <img src="d:\descargas\jordan 6.png" alt="Zapatilla 6">
+                <div class="product-info">
+                    <h3>Jordan Air 6</h3>
+                    <p>Precio: 34.200$</p>
+                    <div class="product-colors">
+                        <!-- Colores de la zapatilla -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

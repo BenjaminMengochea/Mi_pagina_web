@@ -1,0 +1,23 @@
+body {
+    background-color: #8A2BE2; /* Violeta */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el botón "Back" */
+#back-button {
+    background-color: black;
+    color: white;
+}
+
+/* Estilo para los enlaces de las marcas */
+nav ul li a {
+    color: white;
+}
+
+/* Estilo para el botón de búsqueda */
+#search-button {
+    background-color: black;
+    color: white;
+}
+

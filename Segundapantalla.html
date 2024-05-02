@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PANEL DE CONTROL</title>
+    <link rel="stylesheet" href="estilossegundapantalla.css">
+</head>
+<body>
+    <header>
+        <h1>PANEL DE CONTROL</h1>
+    </header>
+
+    <button id="back-button">
+        <img src="d:\descargas\pngtree-back-vector-icon-png-image_470452.jpg" alt="Volver">
+        Back
+    </button>
+
+    <main>
+        <div class="button-container">
+            <button class="control-button" onclick="goToPedidos()">
+                <img src="d:\descargas\png-transparent-computer-icons-order-picking-text-task-symbol.png" alt="Icono de pedidos">
+                <div class="button-text">
+                    <p>Ver pedidos</p>
+                </div>
+            </button>
+
+            <button class="control-button" onclick="goToProductos()">
+                <img src="d:\descargas\png-clipart-computer-file-backblaze-fashion-product-computer-icons-buy-icon.png" alt="Icono de productos">
+                <div class="button-text">
+                    <p>Ver productos</p>
+                </div>
+            </button>
+
+            <button class="control-button" onclick="goToConfiguracion()">
+                <img src="d:\descargas\png-transparent-settings-gear-icon-gear-configuration-set-up-thumbnail.png" alt="Icono de configuración">
+                <div class="button-text">
+                    <p>Configuración</p>
+                </div>
+            </button>
+        </div>
+    </main>
+
+    <script>
+        function goToPedidos() {
+            // Implementa la función para ir a la página de pedidos
+            console.log("Go to Pedidos");
+        }
+
+        function goToProductos() {
+            // Implementa la función para ir a la página de productos
+            console.log("Go to Productos");
+        }
+
+        function goToConfiguracion() {
+            // Implementa la función para ir a la página de configuración
+            console.log("Go to Configuración");
+        }
+    </script>
+</body>
+</html>
